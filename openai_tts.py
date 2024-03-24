@@ -16,8 +16,8 @@ class TextToSpeech:
             input=input
         )
         
-        filename = datetime.date.today().strftime('%Y-%m-%d')
-        response.stream_to_file(f"{filename}.mp3")
+        filename = os.path.join("./audios/", datetime.date.today().strftime('%Y-%m-%d') + ".mp3")
+        response.stream_to_file(filename)
     
     def test(self):
         input = """
