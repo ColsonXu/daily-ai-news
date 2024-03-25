@@ -25,7 +25,7 @@ def get_mp3():
 
 if __name__ == "__main__":
     # Set the page title
-    st.set_page_config(page_title="Audio Player")
+    st.set_page_config(page_title="Daily AI News")
 
     # Add a title to the app
     st.title("Daily AI News")

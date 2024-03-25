@@ -1,6 +1,7 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 import datetime
+import os
 
 load_dotenv()
 
